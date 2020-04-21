@@ -9,8 +9,6 @@ const server = express();
 server.use(express.json());
 server.use('/api/posts', dbRouter);
 
-// endpoints
-
-
+// endpoints moved to router.js
 
 module.exports = server;
